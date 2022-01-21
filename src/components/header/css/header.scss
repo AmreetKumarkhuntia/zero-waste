@@ -1,0 +1,87 @@
+$hover-color: #F64C72;
+$primary: #242582;
+$primary-light: #e6e6ff; 
+$time: 300ms;
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: white;
+
+    filter: drop-shadow(2px 2px 10px rgba(117, 117, 117, 0.445));
+
+    z-index: 100;
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4vw;
+        img{
+            height: 80px;
+        }
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+        ul{
+            list-style: none;
+            li{
+                color: $primary;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: inline-block;
+                text-decoration: none;
+                transition-property: color border-color;
+                transition-duration: $time;
+            }
+            li:hover{
+                color: $hover-color;
+            }
+        }
+    }
+    .sign{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 40px;
+            margin: 2%;
+            border-radius: 3px;
+            border:none;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        .login{
+            color: $primary;
+            background-color: $primary-light;
+            transition-property: all;
+            transition-duration: $time;
+        }
+        .login:hover{
+            background-color: $hover-color;
+            color: $primary-light;
+        }
+        .signup{
+            background-color: $primary;
+            color: $primary-light;
+            transition-property: all;
+            transition-duration: $time;
+        }
+        .signup:hover{
+            background-color: $hover-color;
+        }
+    }
+}
