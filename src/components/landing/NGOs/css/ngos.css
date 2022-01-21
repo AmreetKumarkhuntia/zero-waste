@@ -12,7 +12,7 @@
 .ngos .textsection {
   margin: auto;
   font-family: Seoul;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 0.05em;
 }
 
@@ -50,6 +50,10 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem;
+}
+
+.cards:nth-child() {
+  background-color: lime;
 }
 
 .card {
@@ -115,5 +119,17 @@
 
 .card .textsectioncard .location {
   font-family: Brandon light;
+}
+
+@media (max-width: 550px) {
+  .ngos .textsection {
+    font-size: 15px;
+  }
+  .ngos .cardssection .cards {
+    padding: 0rem;
+  }
+  .card .textsectioncard {
+    padding: 1rem 0rem 0rem 1rem;
+  }
 }
 /*# sourceMappingURL=ngos.css.map */

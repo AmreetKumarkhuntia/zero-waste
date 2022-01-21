@@ -3,17 +3,17 @@
   display: flex;
   flex-direction: column;
 
-  .textsection{
-      margin: auto;
-      font-family: Seoul;
-      font-size: 25px;
-      letter-spacing: 0.05em;
-      h1{
-        margin-bottom: 0.7%;
-      }
+  .textsection {
+    margin: auto;
+    font-family: Seoul;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    h1 {
+      margin-bottom: 0.7%;
+    }
   }
 
-  .underline{
+  .underline {
     border-bottom: 3px solid black;
     border-radius: 2px;
     width: 20vw;
@@ -36,6 +36,11 @@
     }
   }
 }
+
+.cards:nth-child() {
+  background-color: lime;
+}
+
 .card {
   width: 350px;
   justify-content: center;
@@ -43,6 +48,7 @@
   display: flex;
   flex-direction: column;
   margin: 1rem;
+
   //   margin: auto;
   .imagesectioncard {
     width: 100%;
@@ -61,16 +67,35 @@
     }
   }
   .textsectioncard {
-      width: 100%;
-      padding: 1rem 0rem 0rem 4rem;
+    width: 100%;
+    padding: 1rem 0rem 0rem 4rem;
     .name {
       font-family: Brandon bold;
       font-size: 24px;
       font-weight: 400;
       letter-spacing: 0.03em;
     }
-    .location{
+    .location {
       font-family: Brandon light;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .ngos {
+    .textsection {
+      font-size: 15px;
+    }
+    .cardssection {
+      .cards {
+        padding: 0rem;
+      }
+    }
+  }
+
+  .card{
+    .textsectioncard{
+      padding: 1rem 0rem 0rem 1rem;
     }
   }
 }

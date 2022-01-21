@@ -9,6 +9,7 @@ const Ngo_page = () => {
                 <div className='textsection'>
                     <h1>NGO’S WORKING WITH US</h1>
                 </div>
+                
                 <div className='underline'>
 
                 </div>
