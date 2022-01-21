@@ -13,6 +13,7 @@
   margin: auto;
   font-family: Seoul;
   font-size: 20px;
+  color: #3838c9;
   letter-spacing: 0.05em;
 }
 
@@ -21,7 +22,7 @@
 }
 
 .ngos .underline {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #3838c9;
   border-radius: 2px;
   width: 20vw;
   margin: auto;
@@ -72,6 +73,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1rem;
+  border: #3838c9 2px solid;
+  border-radius: 20px;
 }
 
 .card .imagesectioncard {
@@ -103,6 +106,7 @@
 
 .card .imagesectioncard .box .imageofngo {
   width: 200px;
+  z-index: -1;
 }
 
 .card .textsectioncard {
