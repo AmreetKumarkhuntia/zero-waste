@@ -133,6 +133,9 @@
 }
 
 @media only screen and (max-width: 1080px) {
+  .navbar .logo {
+    margin-left: 50px;
+  }
   .navbar .list {
     display: none;
     color: #F64C72;
