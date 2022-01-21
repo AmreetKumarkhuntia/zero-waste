@@ -4,7 +4,7 @@ const Featurescard = (props) => {
   return (
     <div className="featurescard">
       <div className="logo">
-        <img src={props.logo} alt="feature logo" />
+        <img src={props.logo} alt="feature logo" className="logo"/>
       </div>
       <div className="cardtext">
         <div className='cardheading'>{props.Heading}</div>
@@ -35,41 +35,41 @@ const HowWework = () => {
         </div>
         <div className="rightfeatures">
           <div className="image">
-            <img
+            <img className="image"
               // className={mainImage1}
               src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1641632711/zete/undraw_mobile_payments_re_7udl_tdokuf.svg"
-              width={240}
-              height={240}
+              // width={240}
+              // height={240}
               alt="svg"
             />
           </div>
 
           <div className="image">
-            <img
+            <img className="image"
               src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1641632711/zete/undraw_booked_re_vtod_ld8crb.svg"
-              width={240}
-              height={240}
-              className="mainImage2"
+              // width={240}
+              // height={240}
+              // className="mainImage2"
               alt="svg"
             />
           </div>
 
           <div className="image">
-            <img
+            <img className="image"
               src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1641632711/zete/undraw_delivery_address_re_cjca_nultsv.svg"
-              width={240}
-              height={240}
-              className="mainImage2"
+              // width={240}
+              // height={240}
+              // className="mainImage2"
               alt="svg"
             />
           </div>
 
           <div className="image">
-            <img
+            <img className="image"
               src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1641632711/zete/undraw_deliveries_2r4y_crkwtv.svg"
-              width={240}
-              height={240}
-              className="mainImage2"
+              // width={240}
+              // height={240}
+              // className="mainImage2"
               alt="svg"
             />
           </div>

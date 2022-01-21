@@ -12,7 +12,8 @@
 .ngos .textsection {
   margin: auto;
   font-family: Seoul;
-  font-size: 25px;
+  font-size: 20px;
+  color: #3838c9;
   letter-spacing: 0.05em;
 }
 
@@ -21,7 +22,7 @@
 }
 
 .ngos .underline {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #3838c9;
   border-radius: 2px;
   width: 20vw;
   margin: auto;
@@ -52,6 +53,10 @@
   padding: 1rem;
 }
 
+.cards:nth-child() {
+  background-color: lime;
+}
+
 .card {
   width: 350px;
   -webkit-box-pack: center;
@@ -68,6 +73,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1rem;
+  border: #3838c9 2px solid;
+  border-radius: 20px;
 }
 
 .card .imagesectioncard {
@@ -99,6 +106,7 @@
 
 .card .imagesectioncard .box .imageofngo {
   width: 200px;
+  z-index: -1;
 }
 
 .card .textsectioncard {
@@ -115,5 +123,17 @@
 
 .card .textsectioncard .location {
   font-family: Brandon light;
+}
+
+@media (max-width: 550px) {
+  .ngos .textsection {
+    font-size: 15px;
+  }
+  .ngos .cardssection .cards {
+    padding: 0rem;
+  }
+  .card .textsectioncard {
+    padding: 1rem 0rem 0rem 1rem;
+  }
 }
 /*# sourceMappingURL=ngos.css.map */
