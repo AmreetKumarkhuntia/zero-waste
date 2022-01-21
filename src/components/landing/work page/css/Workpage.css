@@ -1,0 +1,155 @@
+.Work_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Work_page .left {
+  background-color: #3838c9;
+  color: #f7f7f7;
+  height: 90vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-left-radius: 20vw;
+}
+
+.Work_page .left .heading {
+  font-family: Brandon bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 60px;
+}
+
+.Work_page .left .subheading {
+  font-family: Brandon light;
+  font-size: 18px;
+}
+
+.Work_page .right {
+  background-color: #3838c9;
+  height: 90vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Work_page .right .tweets {
+  width: 45vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.Work_page .right .tweets .quotes {
+  margin: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.Work_page .right .tweets .quotes img {
+  height: 80px;
+}
+
+.Work_page .right .tweets .tweet {
+  margin: 8%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.Work_page .right .tweets .tweet .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Work_page .right .tweets .tweet .head img {
+  height: 80px;
+  border-radius: 40px;
+}
+
+.Work_page .right .tweets .tweet .head .name {
+  width: 14vw;
+  margin-left: 5%;
+  font-family: Brandon bold;
+  font-size: 20px;
+}
+
+.Work_page .right .tweets .tweet .head .work {
+  font-family: Brandon light;
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+.Work_page .right .tweets .tweet .sub_head {
+  font-family: Brandon light;
+  font-size: 20px;
+  text-align: justify;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+.Work_page .right .tweets .navigation_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 8%;
+}
+
+.Work_page .right .tweets .navigation_button button {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  margin: 1%;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  border-radius: 5px;
+}
+
+.Work_page .right .tweets .navigation_button button:hover {
+  -webkit-box-shadow: 0px 0px 5px #F64C72;
+          box-shadow: 0px 0px 5px #F64C72;
+}
+/*# sourceMappingURL=Workpage.css.map */

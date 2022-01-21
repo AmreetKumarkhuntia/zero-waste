@@ -1,0 +1,106 @@
+$primary: #3838c9;
+$primary-light:#f7f7f7;
+$hover-color: #F64C72;
+
+.Work_page{
+    display: flex;
+    .left{
+        background-color: $primary;
+        color: $primary-light;
+
+        height: 90vh;
+        width: 50vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        border-top-left-radius: 20vw;
+        .heading{
+            font-family: Brandon bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 60px;
+        }
+        .subheading{
+            font-family: Brandon light;
+            font-size: 18px;
+        }
+    }
+    .right{
+        background-color: $primary;
+
+        height: 90vh;
+        width: 50vw;
+
+        display: flex;
+        align-items: center;
+        .tweets{
+            width: 45vw;
+            background-color: white;
+
+            border-radius: 10px;
+            .quotes{
+                margin: 8%;
+                display: flex;
+                flex-direction: row-reverse;
+                img{
+                    height: 80px;
+                }
+            }
+            .tweet{
+                margin: 8%;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                transition-property: all;
+                transition-duration: 300ms;
+                .head{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    img{
+                        height: 80px;
+                        border-radius: 40px;
+                    }
+                    .name{
+                        width: 14vw;
+                        margin-left: 5%;
+                        font-family: Brandon bold;
+                        font-size: 20px;
+                    }
+                    .work{
+                        font-family: Brandon light;
+                        margin-left: 5%;
+                        font-size: 14px;
+                    }
+                }
+                .sub_head{
+                    font-family: Brandon light;
+                    font-size: 20px;
+                    text-align: justify;
+                    padding-right: 10%;
+                    padding-top: 5%;
+                }
+            }
+            .navigation_button{
+                display: flex;
+                flex-direction: row-reverse;
+                margin: 8%;
+                button{
+                    background-color: none;
+                    border: none;
+                    cursor: pointer;
+                    margin: 1%;
+                    transition-property: all;
+                    transition-duration: 300ms;
+                    border-radius: 5px;
+                }
+                button:hover{
+                    box-shadow: 0px 0px 5px $hover-color;
+                }
+            }
+        }
+    }
+}
