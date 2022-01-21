@@ -1,0 +1,25 @@
+.heading2 {
+  font-family: Seoul;
+  letter-spacing: 0.10em;
+  border-left: 3px solid black;
+}
+
+.heading2 h1 {
+  margin: 0px;
+  margin-left: 3px;
+  font-size: 50px;
+}
+
+.list {
+  height: 50vh;
+}
+
+.list .table_heading {
+  font-family: Brandon bold;
+  width: 80vw;
+}
+
+.list .table {
+  font-family: Brandon light;
+}
+/*# sourceMappingURL=bookedslots.css.map */

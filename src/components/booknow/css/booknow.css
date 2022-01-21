@@ -1,0 +1,51 @@
+.booknow {
+  margin-top: 10vh;
+  margin: 5%;
+}
+
+.booknow .heading {
+  margin-top: 15vh;
+  font-family: Seoul;
+  letter-spacing: 0.10em;
+  border-left: 3px solid black;
+}
+
+.booknow .heading h1 {
+  margin-left: 3px;
+  font-size: 50px;
+}
+
+.booknow .details {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.booknow .details .left {
+  font-family: Brandon bold;
+}
+
+.booknow .details .right {
+  width: 50vw;
+}
+
+.booknow .details .right input {
+  font-family: Brandon light;
+}
+
+.booknow .details ul {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.booknow .details ul li {
+  padding: 2px;
+  list-style: none;
+  margin: 0px;
+}
+/*# sourceMappingURL=booknow.css.map */
