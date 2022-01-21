@@ -1,0 +1,139 @@
+.login_out {
+  background-color: rgba(170, 170, 170, 0.452);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login {
+  background-color: white;
+  border-radius: 10px;
+  width: 40vw;
+  height: 30vh;
+  margin: auto;
+  z-index: 200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .cross {
+  width: 36vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding-right: 4vw;
+}
+
+.login .cross button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login .cross button img {
+  height: 20px;
+}
+
+.login .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40vw;
+  font-family: Brandon bold;
+  font-size: 17px;
+}
+
+.login .form ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.login .form ul li {
+  width: 120px;
+  padding: 5px;
+  list-style: none;
+}
+
+.login .form .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 250px;
+  height: 100px;
+}
+
+.login .form .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 250px;
+  height: 100px;
+}
+
+.login .form input {
+  font-family: Brandon bold;
+  border: none;
+  background-color: #ececec;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.login .forgot_password a {
+  font-family: Brandon bold;
+  color: #3838C9;
+  text-decoration: none;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.login .forgot_password a:hover {
+  color: black;
+}
+/*# sourceMappingURL=login.css.map */

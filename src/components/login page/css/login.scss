@@ -1,0 +1,100 @@
+$primary: #3838C9;
+$hover-color: #F64C72;
+
+.login_out{
+    background-color: rgba(170, 170, 170, 0.452);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: white;
+    border-radius: 10px;
+
+    width: 40vw;
+    height: 30vh;
+
+    margin: auto;
+    z-index: 200;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .cross{
+        width: 36vw;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 4vw;
+        button{
+            background-color: white;
+            border: none;
+            cursor: pointer;
+            img{
+                height: 20px;
+            }
+        }
+    }
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+
+        font-family: Brandon bold;
+        font-size: 17px;
+
+        ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+                width: 120px;
+                padding: 5px;
+                list-style: none;
+            }
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            height: 100px;
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            height: 100px;
+        }
+
+        input{
+            font-family: Brandon bold;
+
+            border: none;
+            background-color: rgb(236, 236, 236);
+            border: 1px solid rgb(204, 204, 204);
+            border-radius: 5px;
+        }
+    }
+    .forgot_password{
+        a{
+            font-family: Brandon bold;
+            color: $primary;
+            text-decoration: none;
+            transition-property: all;
+            transition-duration: 300ms;
+        }
+        a:hover{
+            color: black;
+        }
+    }
+}
