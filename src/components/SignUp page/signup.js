@@ -30,8 +30,8 @@ const Sign_up = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className='forgot_password'>
-                    <a href='https://www.google.com'>Forgot Password ?</a>
+                <div className='haveaccount'>
+                    <a href='https://www.google.com'>Have an account ?</a>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 .login_out {
   background-color: rgba(170, 170, 170, 0.452);
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -20,8 +20,8 @@
 .login {
   background-color: white;
   border-radius: 10px;
-  width: 40vw;
-  height: 30vh;
+  width: 600px;
+  height: 200px;
   margin: auto;
   z-index: 200;
   display: -webkit-box;
@@ -40,7 +40,7 @@
 }
 
 .login .cross {
-  width: 36vw;
+  width: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +48,7 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  padding-right: 4vw;
+  padding-right: 50px;
 }
 
 .login .cross button {
@@ -71,7 +71,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 40vw;
+  width: 600px;
   font-family: Brandon bold;
   font-size: 17px;
 }
@@ -135,5 +135,21 @@
 
 .login .forgot_password a:hover {
   color: black;
+}
+
+@media only screen and (max-width: 1100px) {
+  .login {
+    width: 300px;
+  }
+  .login .cross {
+    width: 280px;
+    padding-right: 20px;
+  }
+  .login .form {
+    width: 270px;
+  }
+  .login .form input {
+    width: 120px;
+  }
 }
 /*# sourceMappingURL=login.css.map */
