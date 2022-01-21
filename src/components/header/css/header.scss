@@ -7,7 +7,7 @@ $time: 300ms;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 120px;
     width: 100%;
     top: 0;
     position: fixed;
@@ -84,4 +84,65 @@ $time: 300ms;
             background-color: $hover-color;
         }
     }
+    .hamburger{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .navbar{
+        .list{
+            display: none;
+            color: #F64C72;
+        }
+        .sign{
+            display: none;
+        }
+        .responsive{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: white;
+            filter: drop-shadow(4px 14px 10px rgba(107, 107, 107, 0.322));
+            width: 100%;
+            height: auto;
+            margin: auto;
+            margin-top: 120px;
+            z-index: 98;
+            h2{
+                margin: 0px;
+                font-size: 30px;
+            }
+            .list{
+                width: 100vw;
+                margin: auto;
+                height: auto;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px;
+                    li{
+                        margin: 5px;
+                    }
+                }
+            }
+            .sign{
+
+            }
+        }
+        .hamburger{
+            display:block ;
+            background: none;
+            margin-right: 50px;
+            border: none;
+            cursor: pointer;
+            margin-left: auto;
+            img{
+                height: 50px;
+            }
+        }
+    }
+    
 }
