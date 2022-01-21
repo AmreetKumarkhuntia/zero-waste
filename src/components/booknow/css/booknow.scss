@@ -1,0 +1,43 @@
+.booknow{
+    margin-top: 10vh;
+
+    margin: 5%;
+
+    .heading{
+        margin-top: 15vh;
+        font-family: Seoul;
+        letter-spacing: 0.10em;
+        border-left: 3px solid black;
+        h1{
+            margin-left: 3px;
+            font-size: 50px;
+        }
+    }
+
+    .details{
+        height: 30vh;
+
+        display: flex;
+        flex-direction: row;
+
+        .left{
+            font-family: Brandon bold;
+        }
+        .right{
+            width: 50vw;
+            input{
+                font-family: Brandon light;
+            }
+        }
+        ul{
+            margin-bottom: 0px;
+            padding: 0px;
+            li{
+                padding: 2px;
+                list-style: none;
+                margin: 0px;
+            }
+        }
+    }
+
+}
