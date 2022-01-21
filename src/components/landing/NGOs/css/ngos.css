@@ -1,0 +1,119 @@
+.ngos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ngos .textsection {
+  margin: auto;
+  font-family: Seoul;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+}
+
+.ngos .textsection h1 {
+  margin-bottom: 0.7%;
+}
+
+.ngos .underline {
+  border-bottom: 3px solid black;
+  border-radius: 2px;
+  width: 20vw;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.ngos .cardssection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.ngos .cardssection .cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.card {
+  width: 350px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+.card .imagesectioncard {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .imagesectioncard .box {
+  width: 80%;
+  height: 30vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .imagesectioncard .box .imageofngo {
+  width: 200px;
+}
+
+.card .textsectioncard {
+  width: 100%;
+  padding: 1rem 0rem 0rem 4rem;
+}
+
+.card .textsectioncard .name {
+  font-family: Brandon bold;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.card .textsectioncard .location {
+  font-family: Brandon light;
+}
+/*# sourceMappingURL=ngos.css.map */

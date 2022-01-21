@@ -1,0 +1,171 @@
+.features {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+
+.leftfeatures {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightfeatures {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    // overflow: hidden;
+}
+
+.image{
+    padding: 2rem;
+}
+
+// .image2{
+//     margin-top: 20rem;
+// }
+
+.featuresheading {
+    font-family: Seoul;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-bottom: 3rem;
+    letter-spacing: 0.03em;
+    align-items: flex-start;
+}
+
+.featurescard {
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    margin-left: 3rem;
+}
+
+.cardtext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+.cardheading {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Brandon bold;
+    border-left: 3px solid black;
+    padding-left: 4px;
+}
+
+.cardsubheading {
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: normal;
+    text-align: left;
+    font-family: Brandon light;
+    // padding-bottom: 1rem;
+}
+
+@media (max-width: 1330px) {
+    .featuresheading {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .featurescard {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    .featuresheading {
+        font-size: 50px;
+    }
+    .featurescard {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .features {
+        width: 100%;
+        height: fit-content;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        overflow: hidden;
+    }
+
+    .rightfeatures {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    
+    .features {
+        flex-direction: column;
+    }
+
+    .leftfeatures {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightfeatures {
+        width: 100%;
+    }
+
+    .featuresheading {
+        font-size: 45px;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .featurescard {
+        margin-left: 0rem;
+    }
+
+    .image{
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    // 
+
+    .rightfeatures {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .image{
+        padding: 0.2rem;
+    }
+}

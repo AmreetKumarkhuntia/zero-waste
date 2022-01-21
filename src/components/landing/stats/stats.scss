@@ -1,0 +1,62 @@
+$primary: #242582;
+$violet: #3838c9;
+$white: #ffffff;
+$hover-color: #F64C72;
+$time:300ms;
+
+.stats {
+  width: 100%;
+  min-height: 40vh;
+  height: fit-content;
+  background-color: $violet;
+  display: flex;
+//   padding: 30px;
+
+//   @media (max-width: 1300px) {
+//     padding: 30px;
+//   }
+
+  .box {
+    width: 70%;
+    min-height: 30vh;
+    height: fit-content;
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto 30px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+
+    @media (max-width: 700px) {
+       width: 85%;
+      }
+
+    .smallbox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+
+      transition-property: all;
+      transition-duration: $time;
+
+      .statsicon {
+          padding-bottom: 1rem;
+      }
+
+      .heading {
+        font-size: 40px;
+        font-family: Brandon bold;
+      }
+      .subheading {
+        font-size: 17px;
+        font-family: Brandon light;
+      }
+    }
+    .smallbox:hover{
+      color: $hover-color;
+    }
+  }
+}

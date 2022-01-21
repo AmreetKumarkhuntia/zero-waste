@@ -1,0 +1,76 @@
+.ngos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .textsection{
+      margin: auto;
+      font-family: Seoul;
+      font-size: 25px;
+      letter-spacing: 0.05em;
+      h1{
+        margin-bottom: 0.7%;
+      }
+  }
+
+  .underline{
+    border-bottom: 3px solid black;
+    border-radius: 2px;
+    width: 20vw;
+    margin: auto;
+    margin-top: 0px;
+  }
+
+  .cardssection {
+    display: flex;
+    width: 100%;
+    margin: auto;
+
+    .cards {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+  }
+}
+.card {
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  //   margin: auto;
+  .imagesectioncard {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    .box {
+      width: 80%;
+      height: 30vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      .imageofngo {
+        width: 200px;
+      }
+    }
+  }
+  .textsectioncard {
+      width: 100%;
+      padding: 1rem 0rem 0rem 4rem;
+    .name {
+      font-family: Brandon bold;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+    }
+    .location{
+      font-family: Brandon light;
+    }
+  }
+}
