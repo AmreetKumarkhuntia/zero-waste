@@ -1,8 +1,12 @@
+import Bookedslots from "../slotsbooked/Bookedslots";
+
+import './css/pickup.css';
+
 const Pickup = () => {
     return ( 
-        <>
-            More
-        </>
+        <div className="pickup">
+            <Bookedslots />
+        </div>
      );
 }
  
