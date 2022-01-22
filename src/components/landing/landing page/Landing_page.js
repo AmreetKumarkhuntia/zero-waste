@@ -12,7 +12,7 @@ const Landingpage = () => {
                     </div>
                     <div className='subtitle'>
                         <h4>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
+                            Food Is Life, Food Is Treasure.
                         </h4>
                     </div>
                     <button>
