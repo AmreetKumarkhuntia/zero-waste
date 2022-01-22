@@ -8,7 +8,7 @@ import right_arrow from './css/Right Arrow.svg';
 
 const Work_page = () => {
 
-    const max_index=1;
+    const max_index=2;
 
     const [index, setIndex] = useState(0);
 

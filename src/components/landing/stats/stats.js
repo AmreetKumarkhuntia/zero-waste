@@ -2,7 +2,7 @@ import './stats.css';
 
 const Stats =() =>{
     return(
-        <>
+        <div>
             <div className='stats'>
                 <div className='box'>
                     <div className='smallbox'>
@@ -27,7 +27,7 @@ const Stats =() =>{
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
