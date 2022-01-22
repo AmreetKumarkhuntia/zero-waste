@@ -11,7 +11,7 @@ const tweets = [
         icon:"https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638359763/shantanu-portfolio/Kumar_Shantanu_y3ktwt.jpg",
         name:"Kumar Shantanu",
         work:"Front-end Developer, Designer",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit egestas dui id ornare arcu odio. Nisl suscipit adipiscing bibendum est ultricies integer quis. Odio aenean sed adipiscing diam donec. Volutpat commodo sed egestas egestas fringilla."
+        description:"People often spend a lot in parties and don't look at the amount of food being wasted later on. So we came up with a idea where the food instead of getting wasted is distributed among the needy people. NGOs take the food from the parties as per the bookings and distribute it to the people who are in need."
     },
     {
         id:3,
