@@ -57,3 +57,31 @@ $primary: #3838c9;
         }
     }
 }
+
+@media only screen and (max-width: 1080px) {
+    .Landing_page{
+        flex-direction: column;
+        flex-wrap:wrap;
+        .left{
+            width: 100%;
+            h4{
+                width: 90%;
+            }
+        }
+        .right{
+            display: none;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 680px) {
+    .Landing_page{
+        .left{
+            .heading{
+                font-size: 70px;
+            }
+        }
+    }
+    
+}

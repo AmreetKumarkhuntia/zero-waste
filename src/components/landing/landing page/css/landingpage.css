@@ -82,4 +82,30 @@
   -webkit-transform: translateX(-60px);
           transform: translateX(-60px);
 }
+
+@media only screen and (max-width: 1080px) {
+  .Landing_page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Landing_page .left {
+    width: 100%;
+  }
+  .Landing_page .left h4 {
+    width: 90%;
+  }
+  .Landing_page .right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .Landing_page .left .heading {
+    font-size: 70px;
+  }
+}
 /*# sourceMappingURL=landingpage.css.map */
