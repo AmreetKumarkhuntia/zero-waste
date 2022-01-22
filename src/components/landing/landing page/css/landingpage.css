@@ -58,7 +58,7 @@
 }
 
 .Landing_page .left button:hover {
-  background-color: #F64C72;
+  background-color: #f64c72;
   color: #e6e6ff;
 }
 
@@ -106,8 +106,18 @@
 }
 
 @media only screen and (max-width: 680px) {
+  .Landing_page .left {
+    padding-left: 0%;
+  }
   .Landing_page .left .heading {
-    font-size: 70px;
+    font-size: 60px;
+    padding-left: 4%;
+  }
+  .Landing_page .left h4 {
+    padding-left: 4%;
+  }
+  .Landing_page .left buttton {
+    margin-left: 4%;
   }
 }
 /*# sourceMappingURL=landingpage.css.map */
