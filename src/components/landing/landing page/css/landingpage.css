@@ -81,6 +81,8 @@
 .Landing_page .right img {
   -webkit-transform: translateX(-60px);
           transform: translateX(-60px);
+  -webkit-filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, 0.534));
+          filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, 0.534));
 }
 
 @media only screen and (max-width: 1080px) {
