@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Mail } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import "./css/footer.css";
 
 const Footer = () => {
@@ -15,11 +16,21 @@ const Footer = () => {
           </div>
           <div className="textsection">
             <div className="text">
-              <div className="subheading">About</div>
-              <div className="subheading">Home</div>
-              <div className="subheading">Stats</div>
-              <div className="subheading">How we work</div>
-              <div className="subheading">NGO's with us</div>
+              <Link className="link" to="/">
+                <div className="subheading">Home</div>
+              </Link>
+              <Link className="link" to="/inspiration">
+                <div className="subheading">Inspiration</div>
+              </Link>
+              <Link className="link" to="/ngo">
+                <div className="subheading">Ngos</div>
+              </Link>
+              <Link className="link" to="/book">
+                <div className="subheading">Book Now</div>
+              </Link>
+              <Link className="link" to="/pickup">
+                <div className="subheading">Pick Up now</div>
+              </Link>
             </div>
           </div>
 
@@ -30,8 +41,8 @@ const Footer = () => {
             <div className="left_section">
               <div className="social_media">
                 <Facebook style={{ fontSize: 30, paddingRight: 20 }} />
-                <Instagram  style={{ fontSize: 30, paddingRight: 20 }}/>
-                <Mail  style={{ fontSize: 30, paddingRight: 20 }} />
+                <Instagram style={{ fontSize: 30, paddingRight: 20 }} />
+                <Mail style={{ fontSize: 30, paddingRight: 20 }} />
               </div>
             </div>
           </div>

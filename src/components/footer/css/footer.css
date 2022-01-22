@@ -55,7 +55,13 @@
       justify-content: space-around;
 }
 
-.footer .footerbox .textsection .text .subheading {
+.footer .footerbox .textsection .text .link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.footer .footerbox .textsection .text .link .subheading {
   font-size: 17px;
   padding: 2px;
 }
